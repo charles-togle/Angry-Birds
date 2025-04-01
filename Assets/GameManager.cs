@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
         if (progress >= 100)
         {
             timeFromGameOver += Time.deltaTime;
-            ScoreText.text = "You Win!";
         }
         if (timeFromGameOver >= 3)
         {
